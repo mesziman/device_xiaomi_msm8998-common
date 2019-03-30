@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
+$(call inherit-product, ./vendor/XiaomiCustom/XiaomiCustom.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
